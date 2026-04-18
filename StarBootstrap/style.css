@@ -6,6 +6,7 @@
 
 
 /* PORTFOLIO SECTION */
+/*container da imagem, para efeiro hover*/
 .portfolio-link{
     display: block;
     position: relative;
@@ -27,4 +28,40 @@
 
 .portfolio-link:hover .portfolio-hover {
     opacity: 1;
+}
+
+
+
+
+
+
+
+
+/*TEAM SECTION*/
+/*estilização dos icones*/
+
+.social-container {
+  display: flex;
+  gap: 15px;
+}
+
+.social-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background-color: #1a1d20; 
+  border-radius: 50%;
+  transition: transform 0.2s;
+}
+
+.social-icon svg {
+  width: 24px;
+  height: 24px;
+  fill: white;
+}
+
+.social-icon:hover {
+  transform: scale(1.1);
 }
