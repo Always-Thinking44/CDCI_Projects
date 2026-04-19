@@ -65,3 +65,39 @@
 .social-icon:hover {
   transform: scale(1.1);
 }
+
+
+
+
+
+/*CONTACT SECTION*/
+
+/*1-background*/
+#contact{
+  background-color: #212529;
+  background-image: url(assets/img/map-image.png);
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 200;
+  min-height: 100vh; 
+}
+
+/*2-formulario de contacto*/
+textarea{
+    min-height: 120px;
+}
+
+.form-control {
+    font-family: "Montserrat", sans-serif;
+    padding: 1.25rem;
+    border: 1px solid #ced4da;
+}
+
+.form-control::placeholder {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: #ced4da;
+    text-transform: none; 
+} 

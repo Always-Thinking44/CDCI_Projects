@@ -324,7 +324,35 @@
 
 
         <!--CONTACT SECTION-->
-        <section id="contact">
+        <section id="contact" class="my-2 py-2">
+            <div class="text-center my-5 text-white">
+                <h2>Contact</h2>
+                <p class="subtitle">Lorem ipsum dolor sit amet consectetur.</p>
+            </div>
+
+            <form id="contactForm" method="post" action="">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-md-6">
+                            <input type="text" id="name" name="name" class="form-control mb-3" placeholder="*Your Name" required>  
+                            <input type="email" id="email" name="email" class="form-control mb-3" placeholder="*Your Email" required>
+                            <input type="tel" id="phone" name="phone" class="form-control mb-3" placeholder="*Your Phone" required>
+                        </div>
+
+                        <div class="col-md-6 d-md-flex mb-3">
+                            <textarea id="message" name="message" class="form-control flex-md-grow-1" placeholder="*Your Message" required></textarea>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div class="text-center py-4">
+                    <button id="btnSubmit" class="btn btn-warning rounded-1 text-white fw-bold text-uppercase py-3 px-5" type="submit">
+                        Send Message
+                    </button>
+                </div>
+            </form>
 
         </section>
 
